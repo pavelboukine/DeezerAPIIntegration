@@ -1,0 +1,46 @@
+<!-- dialog_song_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Song Details -->
+    <TextView
+        android:id="@+id/textViewDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textViewDialogSongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewDialogDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration: 3:45"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add more TextViews for other song details if needed -->
+
+    <!-- Close Button -->
+    <Button
+        android:id="@+id/buttonCloseDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

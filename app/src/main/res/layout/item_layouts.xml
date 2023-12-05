@@ -1,0 +1,42 @@
+<!-- item_song.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Album Cover Image -->
+    <ImageView
+        android:id="@+id/imageViewAlbumCover"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!-- Song Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/textViewSongTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song Title"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAlbumName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album Name"
+            android:textSize="14sp" />
+
+        <!-- Add more TextViews for other song details if needed -->
+
+    </LinearLayout>
+
+</LinearLayout>

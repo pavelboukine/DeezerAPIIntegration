@@ -1,0 +1,25 @@
+<!-- fragment_song_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Add UI elements for displaying song details -->
+    <TextView
+        android:id="@+id/textViewSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSongDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSongTitle"
+        android:text="Duration: 3:45"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add more UI elements for displaying song details as needed -->
+</RelativeLayout>
