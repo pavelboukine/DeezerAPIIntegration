@@ -1,0 +1,12 @@
+<!-- activity_search.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Container for SearchArtistFragment -->
+    <FrameLayout
+        android:id="@+id/searchFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
